@@ -1,0 +1,70 @@
+#profile{
+    width: 60%;
+    margin-top: 40%;
+    margin-left: 18%;
+}
+*{
+    font-size: 25px;
+}
+a,button{
+    color: black !important;
+    background: none;
+}
+nav a,nav button{
+
+    text-decoration: none !important;
+}
+button:hover{
+    color: blueviolet !important;
+}
+#side{
+    width: 20%;
+    background-color: cornsilk;
+    height: 753px !important;
+    position: fixed;
+    float: left;
+}
+#mySidenav a{
+    display: block;
+    margin-left: 18%;
+    font-size: 1rem !important;
+    margin-top: 4%;
+}
+#mySidenav a:hover{
+    font-weight:bolder;
+    text-decoration: none;
+}
+#mySidenav a:active{
+    color: blueviolet;
+}
+#mySidenav{
+    margin-top: 5%;
+}
+#main{
+    float: right;
+    margin-top: 83px;
+    width: 80%;
+    position: relative;
+}
+.card{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-body{
+    padding: 1% !important;
+    margin-bottom: -2%;
+}
+.card-header{
+    padding: 1% !important;
+}
+.blue{
+    color: darkblue;
+}
+.nav-item{
+    line-height: 1em !important;
+}
+.btn:focus {
+    /* outline: none !important; */
+    box-shadow: none !important;
+}

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link rel = "stylesheet" href = "http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+<body onload="setMain()">
+  <nav class="nav navbar navbar-light fixed-top" style="background-color: #e3f2fd;">
+    <a href="resume.html" class="ml-4 pl-3"><b style="font-size: xx-large; color: crimson;">Resume</b></a>
+    <div>
+      <button type="button" class="btn btn-link mr-5"><a href="Rajarajeshwari_S.pdf">Hire Me</a></button>
+    </div>
+  </nav>
+  <div id="side">
+    <img src="profile.jpg" id="profile">
+    <div id="mySidenav" class="sidenav">
+      <h5 class="ml-4 mb-3 blue">Rajarajeshwari S</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <button type="button" id="babout" class="btn ml-4 pl-4" onclick="view('about')"><i class="fa fa-regular fa-user"></i>
+            Contact</button>
+        </li>
+        <li class="nav-item">
+          <button type="button" id="beducation" class="btn ml-4 pl-4" onclick="view('education')">
+            <i class="fa fa-solid fa-graduation-cap"></i>
+            Education</button>
+        </li>
+        <li class="nav-item">
+          <button type="button" id="bskills" class="btn ml-4 pl-4" onclick="view('skills')"><i class="fa fa-solid fa-list"></i>
+            Skills</button>
+        </li>
+        <li class="nav-item">
+          <button type="button" id="bprojects" class="btn ml-4 pl-4" onclick="view('projects')"><i class="fa fa-solid fa-check"></i>
+            Projects</button>
+        </li>
+        <li class="nav-item">
+          <button type="button" id="binternships" class="btn ml-4 pl-4" onclick="view('internships')"><i class="fa fa-solid fa-arrow-up"></i>
+            Internships</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="main">
+    <div id="about">
+      <div class="container mt-4 pt-4">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <b class="blue ml-2">Phone</b>
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote ml-2">
+                    <p>9148044011</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <b class="blue ml-2">Mail To</b>
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote ml-2">
+                  <p>sridharan.rajarajeshwari@gmail.com</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-4 pt-4">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <b class="blue ml-2">LinkedIn Profile</b>
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote ml-2">
+                    <p>www.linkedin.com/in/sraji</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <b class="blue ml-2">GitHub Profile</b>
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote ml-2">
+                  <p>@raji-sridharan</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="education">
+      <div class="card mt-4">
+        <div class="card-header">
+          <b class="blue">B Tech - Information Technology</b>
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <ul>
+              <li>Kongu Engineering College</li>
+              <li>CGPA - 9.68</li>
+            </ul>
+          </blockquote>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <div class="card-header">
+          <b class="blue">Class 12</b>
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <ul>
+              <li>Mathagondapalli Model School (CBSE)</li>
+              <li>Percentage - 84.4</li>
+            </ul>
+          </blockquote>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <div class="card-header">
+          <b class="blue">Class 10</b>
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <ul>
+              <li>Mathagondapalli Model School (CBSE)</li>
+              <li>CGPA - 10</li>
+            </ul>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <div id="skills">
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <b class="blue ml-1">Programming</b>
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <ul>
+                    <li>C</li>
+                    <li>Java</li>
+                  </ul>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <b class="blue ml-1">Database</b>
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <ul>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                  </ul>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <b class="blue ml-1">Cloud</b>
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <ul>
+                    <li>AWS</li>
+                    <li>Azure</li>
+                  </ul>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <b class="blue">Web Development</b>
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li> 
+                    <li>NodeJS</li>
+                    <li>Angular</li>
+                  </ul>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <b class="blue">DevOps</b>
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <ul>
+                    <li>Docker</li>
+                    <li>Kubernetes</li>
+                    <li>Helm</li>
+                    <li>Terraform</li>
+                    <li>Prometheus</li>
+                  </ul>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="internships">
+      <div class="card mt-4">
+        <div class="card-header">
+          <b class="blue">Sirius</b>
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <ul>
+              <li>07/2021 - 08/2021</li>
+              <li>Full Stack JS Developer</li>
+            </ul>
+          </blockquote>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <div class="card-header">
+          <b class="blue">Software AG</b>
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <ul>
+              <li>05/2021 - Present</li>
+              <li>DevOps Intern</li>
+            </ul>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <div id="projects">
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <b class="blue ml-1">My BagShop</b>
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <ul>
+                    <li>Ecommerce Platform</li>
+                    <li>EJS, CSS, NodeJS, MongoDB</li>
+                    <li><a href="https://github.com/raji-sridharan/MyBagShop.git">Reference</a></li> 
+                  </ul>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <b class="blue ml-1">DevOps Basis</b>
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <ul>
+                    <li>EKS Deployment</li>
+                    <li>Docker, EKS, Helm, Prometheus</li>
+                    <li><a href="https://github.com/raji-sridharan/DevOps-Project.git">Reference</a></li>
+                  </ul>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
